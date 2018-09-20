@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <!-- <meta name="robots" content="noindex, nofollow"> -->
+   <meta charset="utf-8">
+   <title>ajax_for_Nuts</title>
+   <meta name="description" content="?">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+   <style>
+   body {
+      padding: 200px;
+   }
+
+   span {
+      margin-top: 10px;
+   }
+
+    a{
+      text-align: center;
+    color: #5F3717;
+    border: 1px dotted #5F3717;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    transition: opacity .35s ease-out,transform .35s ease-out,-webkit-transform .35s ease-out;
+    width: 100%;
+   }
+
+   a:hover,
+   a:active,
+   a:focus {
+      text-decoration: none;
+    background-color: transparent;
+    color: #5F3717;
+    border: 1px solid #5F3717;
+    font-size: 22px;
+    transition: opacity .35s ease-out,transform .35s ease-out,-webkit-transform .35s ease-out;
+
+   }
+   </style>
+   <meta name="author" content="Dooev Dima">
+</head>
+
+<body>
+   <section>
+      <!-- <button > -->
+      <span type="button" class=" callback" data-toggle="modal" data-target="#myModal">
+            <a class='' href='#'>Перезвоните мне</a>
+         </span>
+      <!-- </button> -->
+      <br>
+      <span type="button" class=" mess" data-toggle="modal" data-target="#myModal">
+            <a class='' href='#'>Подробнее</a>
+         </span>
+      <div id="myModal" class="fade modal" role="dialog" tabindex="-1">
+         <div class="modal-dialog ">
+            <div class="modal-content">
+               <form action="#" id="modal-form">
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                     <span class="h2">Hello world</span>
+                  </div>
+                  <div class="modal-body">
+      
+                  </div>
+                  <div class="modal-footer">
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+   <script src='js/jquery.min.js'></script>
+   <script src='js/jquery.maskedinput.min.js'></script>
+<!--        <script type="text/javascript">
+
+   jQuery(function($) {
+
+   $.mask.definitions['~']='[+-]';
+
+   $('#contact').mask('+9 (999) 999-9999');
+
+   });</script>  -->
+   <script src="js/bootstrap.min.js">
+   </script>
+   <script src="js/common.js"></script>
+</body>
+
+</html>
